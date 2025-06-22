@@ -3,7 +3,7 @@ from pydantic import EmailStr, HttpUrl
 
 class NLPDataInput(BaseModel):
     text: list[str]
-    user_id: str
+    user_id: EmailStr
 
 class NLPDataOutput(BaseModel):
     model_name: str
