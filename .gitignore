@@ -195,4 +195,5 @@ cython_debug/
 .aws/
 tinybert-disaster-tweet/
 train_dir/
-ml_deploy_venv/
+train_deploy_venv/
+*.pem
